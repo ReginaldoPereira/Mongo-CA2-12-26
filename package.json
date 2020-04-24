@@ -15,5 +15,19 @@
   "bugs": {
     "url": "https://github.com/ReginaldoPereira/Mongo-CA2-12-26/issues"
   },
-  "homepage": "https://github.com/ReginaldoPereira/Mongo-CA2-12-26#readme"
+  "homepage": "https://github.com/ReginaldoPereira/Mongo-CA2-12-26#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.1-security",
+    "module": "^1.2.5",
+    "modules": "^0.4.0",
+    "mongoose": "^5.9.10",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "routes": "^2.1.0",
+    "xml2js": "^0.4.23",
+    "xslt-processor": "^0.11.5"
+  }
 }
