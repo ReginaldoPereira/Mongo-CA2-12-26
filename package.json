@@ -1,0 +1,19 @@
+{
+  "name": "mongo-ca2-12-26",
+  "version": "1.0.0",
+  "description": "ca2",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReginaldoPereira/Mongo-CA2-12-26.git"
+  },
+  "author": "reginaldo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReginaldoPereira/Mongo-CA2-12-26/issues"
+  },
+  "homepage": "https://github.com/ReginaldoPereira/Mongo-CA2-12-26#readme"
+}
