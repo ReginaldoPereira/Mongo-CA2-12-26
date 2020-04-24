@@ -10,4 +10,4 @@ User.findOne({
 // Find user by email with the password field included
 User.findOne({
     email: email
-}).select("+password");
+}).select("+password"); 
