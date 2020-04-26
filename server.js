@@ -5,9 +5,10 @@ http = require("http"),
 express = require("express"),
 bodyParser = require("body-parser"),
 mongoose = require('mongoose');
+require('dotenv').config();
 
 //const mongoose = require("mongoose");
-const dbPath = "mongodb+srv://test:ccttestuser@cluster0-ky6dr.mongodb.net/test?retryWrites=true&w=majority";
+const dbPath = (process.env.MONGODB_URL);
 mongoose.connect(dbPath, {
     useNewUrlParser: true,
 });
