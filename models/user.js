@@ -1,13 +1,14 @@
-User.create({
-    name: name,
-    email: email,
-    password: password
+var mongoose = require('mongoose');
+
+var userSchema = new mongoose.Schema({ 
+    email: { type: String, unique: true, lowercase: true},
+    password: String,
+    username: String,
+    gender: { 
+        type: String,
+        enum: ['MALE', 'FEMALE']
+    },
+    phone: Number 
 });
-// Find user by email
-User.findOne({
-    email: email
-});
-// Find user by email with the password field included
-User.findOne({
-    email: email
-}).select("+password"); 
+
+module.exports = mongoose.model('User', userSchema);
